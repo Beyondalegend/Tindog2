@@ -1,0 +1,196 @@
+#title .container-fluid {
+  text-align: left;
+  padding: 3 15%;
+
+}
+body{
+    font-family: 'Montserrat-black', sans-serif;
+}
+h1{
+    font-family:'Montserrat-Bold', sans-serif;
+}
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+font-family:'Montserrat-Bold', sans-serif;
+}
+h3{
+  font-size:1.5rem;
+  font-weight: 700;
+  color: black;
+  font-family:'Montserrat-Bold', sans-serif;
+}
+.makebold{
+  width: 103%;
+}
+
+p{
+  color: #8f8f8f;
+  font-weight: 500;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+
+}
+.big-heading{
+  font-size: 3.20rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  text-align: right;
+  padding-right: 0;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+ .rotatemobile{
+   width: 60%;
+   transform: rotate(25deg);
+   position: absolute;
+   right: 30%;
+ }
+/* Section 2 */
+
+#features{
+padding: 7% 15%;
+position: relative;
+}
+
+.feature-box{
+padding: 5%;
+text-align: center;
+}
+
+.features-icon{
+text-align: center;
+color: #ef8172;
+margin-bottom: 1rem;
+
+}
+.features-icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+  text-align: center;
+  background: #ef8172;
+}
+.testimonial-image{
+width: 10%;
+border-radius: 100%;
+margin: 20px;
+}
+
+.active{
+  padding: 7% 15%;
+}
+
+#press{
+    background: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+
+}
+.price-text{
+font-size: 3rem;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+
+}
+@media (max-width:1185px) {
+
+#title .container-fluid{
+  text-align: center;
+}
+
+
+  .rotatemobile{
+  position: static;
+  transform: rotate(0);
+
+  }
+}
+
+/* Cta Section */
+
+#cta{
+  padding: 10% 15% 7%;
+  text-align: center;
+}
+
+.cta-header{
+font-family:inherit;
+font-weight: 900;
+font-size: 3.20rem;
+color: #FFF;
+}
+.apple-btn{
+  width: 8.40725em;
+}
+
+/* Footer Section */
+
+#footer{
+text-align: center;
+padding: 10% 15%;
+}
+.footer-cta{
+  padding:0 0 3% 2%;
+  border: none;
+  background-color: #fff;
+}
